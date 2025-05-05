@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #8B4513;
+  --color-secondary: #FFF8DC;
+  --color-accent: #DAA520;
+  --color-success: #4CAF50;
+  --color-warning: #FF9800;
+  --color-error: #F44336;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  @apply bg-cream-50 text-brown-900;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  @apply text-brown-900;
+}
+
+.btn {
+  @apply px-6 py-3 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-sm;
+}
+
+.btn-primary {
+  @apply bg-gradient-to-r from-brown-700 to-brown-800 text-white hover:from-brown-800 hover:to-brown-900 shadow-brown-500/20;
+}
+
+.btn-secondary {
+  @apply bg-cream-200 text-brown-900 hover:bg-cream-300 shadow-cream-500/20;
+}
+
+.btn-accent {
+  @apply bg-gradient-to-r from-gold-500 to-gold-600 text-white hover:from-gold-600 hover:to-gold-700 shadow-gold-500/20;
+}
+
+.card {
+  @apply bg-white rounded-2xl shadow-lg transition-all duration-300 hover:shadow-xl border border-cream-100;
+}
+
+.container-custom {
+  @apply container mx-auto px-4 md:px-8;
+}
+
+.input {
+  @apply w-full px-4 py-3 border border-cream-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-brown-500/50 focus:border-transparent transition-all duration-300 bg-white shadow-sm;
+}
+
+/* Animation for cart items */
+@keyframes addToCart {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.add-to-cart-animation {
+  animation: addToCart 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.leaflet-container {
+  @apply h-[400px] w-full rounded-2xl shadow-lg border-2 border-cream-100;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-cream-50;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-brown-200 rounded-full hover:bg-brown-300 transition-colors;
+}
+
+/* Glass effect */
+.glass-effect {
+  @apply backdrop-blur-md bg-white/80 border border-white/20;
+}
+
+/* Hover effects */
+.hover-lift {
+  @apply transition-transform duration-300 hover:-translate-y-1;
+}
+
+/* Text gradient */
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-brown-700 to-gold-500;
+}
