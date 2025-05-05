@@ -16,7 +16,7 @@ const HomePage: React.FC = () => {
       <FeaturedProducts />
       <div className="py-12 bg-brown-800 text-white">
         <div className="container-custom text-center">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6">Our Baking Philosophy</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-white">Our Baking Philosophy</h2>
           <div className="max-w-3xl mx-auto">
             <p className="mb-4">
               At Baked & Shacked, we believe in using only the finest ingredients and traditional methods to create 
