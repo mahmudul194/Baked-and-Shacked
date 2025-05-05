@@ -33,7 +33,7 @@ const CartItem: React.FC<CartItemProps> = ({ item }) => {
       
       <div className="ml-4 flex-grow">
         <h3 className="font-medium">{product.name}</h3>
-        <p className="text-sm text-gray-600 mt-1">${product.price.toFixed(2)}</p>
+        <p className="text-sm text-gray-600 mt-1">৳{product.price.toFixed(2)}</p>
       </div>
       
       <div className="flex items-center">
