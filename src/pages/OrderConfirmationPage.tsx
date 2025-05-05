@@ -56,7 +56,7 @@ const OrderConfirmationPage: React.FC = () => {
             </div>
             <div className="flex justify-between items-center">
               <span className="text-sm text-gray-500">Total Amount:</span>
-              <span className="font-bold">${order.totalAmount.toFixed(2)}</span>
+              <span className="font-bold">৳{order.totalAmount.toFixed(2)}</span>
             </div>
           </div>
           
@@ -76,14 +76,14 @@ const OrderConfirmationPage: React.FC = () => {
                       <p className="text-sm text-gray-500">Qty: {item.quantity}</p>
                     </div>
                   </div>
-                  <span className="font-medium">${(item.product.price * item.quantity).toFixed(2)}</span>
+                  <span className="font-medium">৳{(item.product.price * item.quantity).toFixed(2)}</span>
                 </div>
               ))}
             </div>
             
             <div className="border-t border-cream-200 pt-3 flex justify-between font-bold">
               <span>Total</span>
-              <span>${order.totalAmount.toFixed(2)}</span>
+              <span>৳{order.totalAmount.toFixed(2)}</span>
             </div>
           </div>
           
