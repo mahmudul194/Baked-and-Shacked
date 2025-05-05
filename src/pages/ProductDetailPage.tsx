@@ -117,7 +117,7 @@ const ProductDetailPage: React.FC = () => {
               
               <div className="flex items-center justify-between mb-6">
                 <div className="text-2xl font-bold text-brown-700">
-                  ${product.price.toFixed(2)}
+                ৳{product.price.toFixed(2)}
                 </div>
                 
                 <div className="flex items-center border border-cream-300 rounded-md">
