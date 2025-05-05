@@ -29,7 +29,7 @@ const AddressForm: React.FC<AddressFormProps> = ({ address, onChange }) => {
           onChange={handleChange}
           className="input"
           required
-          placeholder="123 Main St"
+          placeholder="Dhaka"
         />
       </div>
       
