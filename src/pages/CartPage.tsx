@@ -73,7 +73,7 @@ const CartPage: React.FC = () => {
                   </div>
                   <div className="border-t border-cream-200 pt-3 flex justify-between font-bold">
                     <span>Total</span>
-                    <span>${subtotal().toFixed(2)}</span>
+                    <span>৳{subtotal().toFixed(2)}</span>
                   </div>
                 </div>
                 

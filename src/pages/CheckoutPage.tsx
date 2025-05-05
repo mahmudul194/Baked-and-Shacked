@@ -163,7 +163,7 @@ const CheckoutPage: React.FC = () => {
                           onChange={(e) => setCustomerPhone(e.target.value)}
                           className="input"
                           required
-                          placeholder="(555) 123-4567"
+                          placeholder="018....."
                         />
                       </div>
                     </div>
