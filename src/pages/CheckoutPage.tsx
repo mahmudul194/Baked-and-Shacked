@@ -254,7 +254,7 @@ const CheckoutPage: React.FC = () => {
                               {item.quantity} x {item.product.name}
                             </span>
                             <span className="font-medium">
-                              ${(item.product.price * item.quantity).toFixed(2)}
+                            ৳{(item.product.price * item.quantity).toFixed(2)}
                             </span>
                           </div>
                         ))}

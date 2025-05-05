@@ -66,15 +66,15 @@ const Footer: React.FC = () => {
             <h3 className="text-lg font-bold mb-4 text-cream-100">Opening Hours</h3>
             <ul className="space-y-2">
               <li className="flex justify-between">
-                <span>Monday - Friday:</span>
+                <span>Sunday - Thursday:</span>
                 <span>7:00 AM - 7:00 PM</span>
               </li>
               <li className="flex justify-between">
-                <span>Saturday:</span>
+                <span>Friday:</span>
                 <span>8:00 AM - 6:00 PM</span>
               </li>
               <li className="flex justify-between">
-                <span>Sunday:</span>
+                <span>Satureday:</span>
                 <span>8:00 AM - 5:00 PM</span>
               </li>
             </ul>
