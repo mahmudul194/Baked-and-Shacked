@@ -19,7 +19,7 @@ const AddressForm: React.FC<AddressFormProps> = ({ address, onChange }) => {
     <div className="space-y-4">
       <div>
         <label htmlFor="street" className="block text-sm font-medium text-gray-700 mb-1">
-          Street Address*
+          Road Number*
         </label>
         <input
           type="text"
@@ -29,7 +29,7 @@ const AddressForm: React.FC<AddressFormProps> = ({ address, onChange }) => {
           onChange={handleChange}
           className="input"
           required
-          placeholder="Dhaka"
+          placeholder="Road no, house no"
         />
       </div>
       
@@ -46,13 +46,13 @@ const AddressForm: React.FC<AddressFormProps> = ({ address, onChange }) => {
             onChange={handleChange}
             className="input"
             required
-            placeholder="New York"
+            placeholder="Rupayan City"
           />
         </div>
         
         <div>
           <label htmlFor="state" className="block text-sm font-medium text-gray-700 mb-1">
-            State*
+            Division*
           </label>
           <input
             type="text"
@@ -62,7 +62,7 @@ const AddressForm: React.FC<AddressFormProps> = ({ address, onChange }) => {
             onChange={handleChange}
             className="input"
             required
-            placeholder="NY"
+            placeholder="Dhaka"
           />
         </div>
       </div>
