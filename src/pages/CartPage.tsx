@@ -65,7 +65,7 @@ const CartPage: React.FC = () => {
                 <div className="space-y-3 mb-6">
                   <div className="flex justify-between text-gray-600">
                     <span>Subtotal</span>
-                    <span>${subtotal().toFixed(2)}</span>
+                    <span>৳{subtotal().toFixed(2)}</span>
                   </div>
                   <div className="flex justify-between text-gray-600">
                     <span>Shipping</span>
